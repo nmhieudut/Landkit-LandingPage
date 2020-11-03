@@ -1,0 +1,39 @@
+/* Nav bar styles */
+
+.nav-bar {
+  padding: 10px;
+}
+
+.nav-bar-brand {
+  flex: 1;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-bar-menu {
+  flex: 2.5;
+  padding: 0;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav-list-item {
+  font-size: 18px;
+  color: #506690;
+}
+.nav-button {
+  margin-left: 150px;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid transparent;
+  background-color: blue;
+}
